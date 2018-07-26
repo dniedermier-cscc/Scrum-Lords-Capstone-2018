@@ -1,0 +1,5 @@
+# Raw Data Files
+IMDB/Data/
+
+# Jupyter Notebook
+.ipynb_checkpoints
