@@ -59,6 +59,6 @@ print(titlePrincipals.head(5))
 print('Reading title.ratings.tsv')
 titleRatings = pd.read_csv("./Data/title.ratings.tsv/data.tsv", sep='\t',dtype={"tconst": object, "averageRating": float, "numVotes": int})
 print('Complete - 7 of 7')
-print(titlePrincipals.head(5))
+print(titleRatings.head(5))
 
 print('\n-----all data loaded -----')
