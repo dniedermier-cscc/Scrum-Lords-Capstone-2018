@@ -25,7 +25,8 @@ print(titleAkas.head(5))
 #--------------------------------------------------------
 print('Reading title.basics.tsv')
 titleBasics = pd.read_csv("./Data/title.basics.tsv/data.tsv", sep='\t',dtype={"tconst": object, "titleType": object, "primaryTitle": object, "originalTitle": object, "isAdult": object, "startYear": object})
-#print('Complete - 3 of 7')
+print('Complete - 3 of 7')
+titleBasics = titleBasics[titleBasics.isAdult == "0"]
 print(titleBasics.head(5))
 
 #--------------------------------------------------------
@@ -58,6 +59,6 @@ print(titlePrincipals.head(5))
 print('Reading title.ratings.tsv')
 titleRatings = pd.read_csv("./Data/title.ratings.tsv/data.tsv", sep='\t',dtype={"tconst": object, "averageRating": float, "numVotes": int})
 print('Complete - 7 of 7')
-print(titlePrincipals.head(5))
+print(titleRatings.head(5))
 
 print('\n-----all data loaded -----')
