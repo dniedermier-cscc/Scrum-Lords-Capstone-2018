@@ -1,7 +1,7 @@
 # GitIgnore Examples: https://github.com/github/gitignore
 
 # Raw Data Files
-IMDB/Data/
+IMDB/Data/*
 IMDB/Data/name.basics.tsv/*
 IMDB/Data/title.akas.tsv/*
 IMDB/Data/title.basics.tsv/*
