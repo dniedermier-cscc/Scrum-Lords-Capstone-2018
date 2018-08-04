@@ -2,6 +2,13 @@
 
 # Raw Data Files
 IMDB/Data/
+IMDB/Data/name.basics.tsv/*
+IMDB/Data/title.akas.tsv/*
+IMDB/Data/title.basics.tsv/*
+IMDB/Data/title.crew.tsv/*
+IMDB/Data/title.episode.tsv/*
+IMDB/Data/title.principals.tsv/*
+IMDB/Data/title.ratings.tsv/*
 
 # Jupyter Notebook
 .ipynb_checkpoints
