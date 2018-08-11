@@ -12,3 +12,6 @@ IMDB/Data/title.ratings.tsv/*
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# generated pydot files
+*.dot
